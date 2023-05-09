@@ -1,0 +1,13 @@
+rest_api:
+    user_name: 
+        - postgres
+    password:
+        - admin
+    host:
+        - localhost
+    database:
+        - employees_info
+    database_url:
+        - postgres:admin@localhost/employees_info
+    driver_name:
+        - postgresql

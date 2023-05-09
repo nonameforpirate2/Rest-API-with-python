@@ -1,0 +1,30 @@
+2023-05-09 02:22:53,995 - my_application - ERROR - 'department_name'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 127, in post
+    department_name = item['department_name']
+KeyError: 'department_name'
+2023-05-09 02:24:24,800 - my_application - ERROR - __init__() got an unexpected keyword argument 'employee_id'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 277, in post
+    employee = Jobs(employee_id = employee_id,
+TypeError: __init__() got an unexpected keyword argument 'employee_id'
+2023-05-09 02:25:18,802 - my_application - ERROR - __init__() got an unexpected keyword argument 'employee_id'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 277, in post
+    employee = Jobs(employee_id = employee_id,
+TypeError: __init__() got an unexpected keyword argument 'employee_id'
+2023-05-09 02:25:18,802 - my_application - ERROR - __init__() got an unexpected keyword argument 'employee_id'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 277, in post
+    employee = Jobs(employee_id = employee_id,
+TypeError: __init__() got an unexpected keyword argument 'employee_id'
+2023-05-09 02:28:26,115 - my_application - ERROR - __init__() got an unexpected keyword argument 'employee_id'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 277, in post
+    employee = Jobs(employee_id = employee_id,
+TypeError: __init__() got an unexpected keyword argument 'employee_id'
+2023-05-09 02:29:20,486 - my_application - ERROR - __init__() got an unexpected keyword argument 'employee_id'
+Traceback (most recent call last):
+  File "C:\Users\g1238\Documents\GitHub\Rest-API-with-python\test_departments.py", line 279, in post
+    employee = Jobs(employee_id = employee_id,
+TypeError: __init__() got an unexpected keyword argument 'employee_id'
