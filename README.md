@@ -18,4 +18,9 @@ Here is the database working:
 ![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/database_setup_working.png "Database working")  
 Here is the tables working:  
 ![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/database_tables_working.png "Tables working")
-## Create an API Service
+## Create an API Service: API working
+In the script `rest_api.py` ("part 1" folder) you can find the script that I use to interact with the database as an API. In the picture below you can appreciate the script working.   
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/running_script_working.png "API Script Working")
+The `rest_conf.yml` file was use to substract sensitive information to interact to the database. We do not want a script with passowords or user names going public in the wrong place.    
+In the image below you can appreciate the new data insertion into the departments table working with the API running local on postman.
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/departments_insertion_working.png "API Departments Insertion Working")
