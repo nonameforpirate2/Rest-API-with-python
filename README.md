@@ -33,6 +33,7 @@ Achievements:
     ![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/logs_working_part_1.png "Log File creation working properly")  
     In the image below is the code where I programmed the log file generation while attemping to insert data into the db.
     ![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_1/logs_working_part_2.png "Log file code to track errors working.")  
+    - Limitation to insert up to 1000 records per request was implemented properly. In the script `rest_api.py` (Part_1 folder) upi can appreciate the implementation line 197, 270 and 124. Thus the solution contains bulk data loading as per request. 
 
 ### Create an API Service: Feature to back up the information
 Unfortunately postgres does not have commands to save tables into avro format. As you can see in the image below, in the postgres documentation.  
