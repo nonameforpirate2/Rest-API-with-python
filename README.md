@@ -15,6 +15,6 @@ Achivements:
     - The relational db got implemented. In this case I use postgres.
 The information got insert into the DB with the help of the `insert_info.sql` script (db_setup folder). In the image below you can appreciate the database working on my laptop.
 Here is the database working:
-![alt text](Part_1\database_setup_working.png "Database working")
+!["Database working"](Part_1\database_setup_working.png)
 
 ## Create an API Service
