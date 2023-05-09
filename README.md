@@ -47,5 +47,15 @@ I choose to add as scheduling jobs in the Postgres DB two scripts which generate
 In the script `challenge_2_part_2.sql` (part_2 folder) you can find the aggregations done to generate outcome for part 2. The script was added into a scheduling job in Postgres DB and Tableau connects to the outcome table 2.   
 In the image below you can appreciate the scheduled jobs in Postgres DB.   
 ![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_2/scheduling_jobs_part_2.png "Scheduled jobs in Postgres DB.") 
+## Aggregate Data to Generate Reports: Visualization
+As a matter of extra. I include a couple of tableau visualizations into the solution. The visualizations are the product out of the analysis. In the file `challenge_2_part_1.twbx` (part_2 folder) you can find the tableau compress file including the data to open it and manipulate the visualizations. In the image below you an appreciate the total hiring positions per department. It corresponds to the part 1.  
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_2/total_hiring_positions.png "Total Hiring Positions Per Department.")    
+In the image below you can appreciate the hiring flow over the last year per department on quarterly basis. It corresponds to the part 1.   
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_2/hiring_flow_last_year.png "Hiring Flow.")    
+The image below represents the positions distributions per deparment and you can appreciate proportions by team during q4.
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_2/Positions_distributions_over_departments_q4.png "Position Distributions over Departments Q4.")     
+In the file `challenge_2_part_2.twbx` (part_2 folder) you can find the tableau compress file including the data to check visualizations.  
+In the image below you can see a visualization for the output table given desire aggregations. It corresponds to the part 2 of the challenge.  
+![alt text](https://github.com/nonameforpirate2/Rest-API-with-python/blob/dev/Part_2/Top_Hiring_Departments_Over_The_Mean.png "Top Hiring Departments Over the Mean.")  
 
 
